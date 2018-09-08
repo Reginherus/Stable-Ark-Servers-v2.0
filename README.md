@@ -28,7 +28,7 @@ Download SteamCMD
 
 Open up the SteamCMD command line and run this command
 
-@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +logon anonymous +force_install_dir <Dir for Ark Files> +app_update 376030 validate +exit
+@ShutdownOnFailedCommand 1 +@NoPromptForPassword 1 +logon anonymous +force_install_dir "Ark Files Dir" +app_update 376030 validate +exit
   
  If you plan on hosting a cluster, you will need to run this for each server you plan on hosting.
  
