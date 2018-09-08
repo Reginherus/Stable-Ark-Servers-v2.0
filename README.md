@@ -5,9 +5,12 @@ The current project is currently a work in progress. Most of the functionality w
 
 # Using SASv2
 
-This project has 5 Dependencies:
+This project has 4 Dependencies:
+
 HTMLAgilityPack - Install-Package HtmlAgilityPack -Version 1.8.7
+
 INI-Parser - Install-Package ini-parser
+
 SteamKit2 - Install-Package SteamKit2 -Version 2.1.0
 
 You can install these dependencies by using the Package Manager Console.
