@@ -54,11 +54,13 @@ Open up the SteamCMD command line and run this command
  
  # Running SASv2
  
- Build the project and go to the SASv2 executable. 
+ Build the project and go to the SASv2 executable. In order to build the project, you will need to include all of the dependencies.
  
  Launch the executable, enter n for "Load server info from file?" option and fill in the required information for the initialization. 
  
  You will need to enter a handle for the server, the directory at which it resides
+ 
+ After the initialization process is complete, every time you launch SASv2 you can enter y for "Load server info from file?" to automatically load your previously entered server information.
  
  # Existing Commands
  
